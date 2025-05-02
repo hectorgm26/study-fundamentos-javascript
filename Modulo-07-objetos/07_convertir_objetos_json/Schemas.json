@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "nombre": {"type": "string"},
+        "edad": {"type": "integer"},
+        "activo": {"type": "boolean"},
+        "año": {"type": "integer", "minimun": 1900, "maximum": 2023}
+    },
+    "required": ["nombre", "edad", "activo"]
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM en JavaScript</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <h1>Formulario en HTML</h1>
+
+    <div id="alertDiv"></div>
+
+    <form action="" id="contactForm">
+        <div>
+            <label>Nombre Completo</label><br>
+            <input type="text" id="fullName"/>
+            <span></span><br><br>
+        </div>
+        <div>
+            <label>Correo Electronico</label><br>
+            <input type="email" id="email"/>
+            <span></span><br><br>
+        </div>
+        <div>
+            <label>Pais de Nacimiento</label><br>
+            <select id="countries">
+                <option value="" selected="true">Elige Uno</option>
+                <option value="chile">Chile</option>
+                <option value="mexico">México</option>
+                <option value="argentina">Argentina</option>
+                <option value="españa">España</option>
+                <option value="francia">Francia</option>
+                <option value="italia">Italia</option>
+                <option value="portugal">Portugal</option>
+                <option value="inglaterra">Inglaterra</option>
+                <option value="alemania">Alemania</option>
+                <option value="suecia">Suecia</option>
+                <option value="noruega">Noruega</option>
+                <option value="dinamarca">Dinamarca</option>
+                <option value="finlandia">Finlandia</option>
+                <option value="suiza">Suiza</option>
+                <option value="belgica">Bélgica</option>
+                <option value="holanda">Holanda</option>
+                <option value="austria">Austria</option>
+            </select>
+            <span></span><br><br>
+        </div>
+        <div>
+            <label>Mensaje</label><br>
+            <textarea cols="30" rows="10" id="message"></textarea>
+            <span></span>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="./js/validando_formularios.js"></script>
+</body>
+</html>
