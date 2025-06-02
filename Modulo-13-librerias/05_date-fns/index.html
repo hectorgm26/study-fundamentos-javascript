@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <input type="date" onchange="age.innerText = (new Date().getFullYear() - new Date(this.value).getFullYear())">
+        <!-- el age.innerText es una referencia al elemento con id "age" -->
+        <!-- el new Date(this.value) convierte el valor del input en un objeto Date -->
+
+        <p>Tu edad es: <span id="age"></span></p>
+    </div>
+</body>
+</html>
